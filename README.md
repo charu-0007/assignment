@@ -16,4 +16,4 @@ It helps catch problems early, like overheating or a faulty sensor, so the robot
 The response becomes faster and gets closer to the desired speed of 10 as Kp increases.
 
 **Q2: Does the output reach exactly 10? Explain.**  
-No. With proportional control only, there is always some error left. As the output gets closer to 10, the error becomes very small, so the controller's push also becomes small — the motor settles just below 10 instead of exactly reaching it.
+No. With proportional control only, there is always some error left. As the output gets closer to 10, the error becomes very small, so the controller's push also becomes small.
